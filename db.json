@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Milk",
+      "manufacturer": "Dairy Farm",
+      "safetyStatus": "Safe",
+      "expirationDate": "2026-04-10"
+    },
+    {
+      "name": "Chicken Meat",
+      "manufacturer": "Farm Food",
+      "safetyStatus": "Checking",
+      "expirationDate": "2026-03-15",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Apple",
+      "manufacturer": "Green Garden",
+      "safetyStatus": "Safe",
+      "expirationDate": "2026-05-01"
+    },
+    {
+      "name": "Fish",
+      "manufacturer": "SeaFood Ltd",
+      "safetyStatus": "Risk",
+      "expirationDate": "2026-03-12",
+      "id": "4"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
